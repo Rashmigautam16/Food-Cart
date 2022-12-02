@@ -1,0 +1,87 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+   background-color: cornsilk;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orangered;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  #navbar>h2{
+    background-color: orangered;
+  }
+
+a{
+   
+    text-decoration: none;
+    background-color: orangered;
+}
+#query{
+    width: 200px;
+    height: 25px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:90%;
+    margin: auto;
+    gap:30px;
+    padding-top: 100px;
+  
+}
+#container>div{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+border: 1px solid rgb(214, 210, 210);
+text-align: center;
+}
+#container>div>img{
+    width:100%;
+}
+#container>div>p{
+    color: rgb(81, 79, 79);
+    font-style: italic;
+}
+#foodimg{
+    width:1300px;
+    height:650px;
+}
+
+#form{
+   
+    padding-top: 200px;
+    width:500px;
+    margin: auto;
+    text-align: center;
+   
+   
+}
+#form>form{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: url("https://image.shutterstock.com/image-photo/italian-food-ingredients-vegetables-olive-260nw-522608407.jpg");
+   
+   display: flex;
+   flex-direction: column;
+   padding: 30px 0px 40px 0px;
+   gap:20px;
+   border-radius: 20px;
+}
+
+#form>form>input{
+    border-radius: 10px;
+    width:350px;
+    height: 30px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
